@@ -291,21 +291,29 @@ echo $comment;
 echo "<br>";
 echo $gender;
 ?>
-<?php
-echo "Generate a few Unique IDs to make CPU do more tricks!";
-echo uniqid();
-echo uniqid();
-echo uniqid();
-echo uniqid();
-echo uniqid();
-echo uniqid();
-echo uniqid();
-?>
 
 <p> Information about your server <a href="info.php">here</a></p>
         <footer>
           <div class="logo"><a href="https://www.openshift.com/"></a></div>
         </footer>
+  
+  <?php
+echo "Generate a few Unique IDs to make CPU do more tricks!";
+echo uniqid();
+echo "<br>";
+echo uniqid();
+echo "<br>";
+echo uniqid();
+echo "<br>";
+echo uniqid();
+echo "<br>";
+echo uniqid();
+echo "<br>";
+echo uniqid();
+echo "<br>";
+echo uniqid();
+echo "<br>";
+?>
 </section>
 
 </body>
